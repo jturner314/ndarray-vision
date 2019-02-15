@@ -11,3 +11,6 @@ edition = "2018"
 [dependencies]
 ndarray = "0.12"
 num-traits = "0.2"
+
+[patch.crates-io]
+ndarray = { git = "https://github.com/jturner314/rust-ndarray.git", branch = "generalize-op-types" }
